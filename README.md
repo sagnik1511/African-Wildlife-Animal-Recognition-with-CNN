@@ -5,7 +5,8 @@ Link of the dataset : https://www.kaggle.com/biancaferreira/african-wildlife
 
 Link of the notebook done in Kaggle : https://www.kaggle.com/sagnik1511/animal-recognition-custom-cnn
 
-###Approach :      
+### Approach : 
+
           1. Gathering image data 
           2. Preparing tabular data
           3. Model Generation 
@@ -13,7 +14,7 @@ Link of the notebook done in Kaggle : https://www.kaggle.com/sagnik1511/animal-r
           5. Conclusion
           
           
-###Model Evaluation :
+### Model Evaluation :
 
 * Evaluation Metric :  
 
