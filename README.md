@@ -16,7 +16,7 @@ Link of the notebook done in Kaggle : https://www.kaggle.com/sagnik1511/animal-r
           
 ### Model Evaluation :
 
-* Evaluation Metric :  
+* Evaluation Metrics :  
 
          1. Accuracy :
                  Train : 0.8606
