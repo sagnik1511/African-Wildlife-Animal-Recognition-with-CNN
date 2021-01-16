@@ -26,3 +26,5 @@ Link of the notebook done in Kaggle : https://www.kaggle.com/sagnik1511/animal-r
                  Train : 0.3980
                  Test  : 1.2504
          (Reached on 5th epoch)
+
+# Do ***STAR*** if find useful :)
