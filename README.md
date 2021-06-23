@@ -1,6 +1,8 @@
 # African-Wildlife-Animal-Recognition-with-CNN
 Using Custom CNN to predict images of African Wildlife
 
+### View Stats at : [sagnik1511/African-Wildlife-Animal-Recognition-with-CNN](https://githubmemory.com/repo/sagnik1511/African-Wildlife-Animal-Recognition-with-CNN)
+
 Link of the dataset : https://www.kaggle.com/biancaferreira/african-wildlife
 
 Link of the notebook done in Kaggle : https://www.kaggle.com/sagnik1511/animal-recognition-custom-cnn
