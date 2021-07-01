@@ -4,18 +4,34 @@ All the folders of images are into a single folder named as 'images'
 the current working directory looks like
 
 -images/
-    -buffalo
+    -buffalo/
         -001.jpg
         -001.txt
-    -elephant
+        .
+        .
+        .
+        
+    -elephant/
         -001.jpg
         -001.txt
-    -rhino
+        .
+        .
+        .
+        
+    -rhino/
         -001.jpg
         -001.txt
-    -zebra
+        .
+        .
+        .
+        
+    -zebra/
         -001.jpg
         -001.txt
+        .
+        .
+        .
+        
         
 So, basically all the label files are going to be
 deleted and all the folder will only contain jpg
@@ -48,14 +64,30 @@ SEED = 42    # To find similar result the seed has been taken
 Now the files will be deleted as the directory tree will convert into
 
 -images/
-    -buffalo
+    -buffalo/
         -001.jpg
-    -elephant
+        .
+        .
+        .
+        
+    -elephant/
         -001.jpg
-    -rhino
+        .
+        .
+        .
+        
+    -rhino/
         -001.jpg
-    -zebra
+        .
+        .
+        .
+        
+    -zebra/
         -001.jpg
+        .
+        .
+        .
+        
 
 """
 
