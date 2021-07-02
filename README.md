@@ -56,4 +56,4 @@ Pretrained VGG Prediction over African Wildlife
  
  
  # Do Star the repository :)
- # Thank Yoy for visiting :)
+ # Thank You for visiting :)
