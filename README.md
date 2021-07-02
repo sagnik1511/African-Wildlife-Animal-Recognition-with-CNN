@@ -1,32 +1,59 @@
-# African-Wildlife-Animal-Recognition-with-CNN
-Using Custom CNN to predict images of African Wildlife
+# Africal wildlife Prediction using CNN
 
-### View Stats at : [sagnik1511/African-Wildlife-Animal-Recognition-with-CNN](https://githubmemory.com/repo/sagnik1511/African-Wildlife-Animal-Recognition-with-CNN)
+Pretrained VGG Prediction over African Wildlife 
 
-Link of the dataset : https://www.kaggle.com/biancaferreira/african-wildlife
+![](https://github.com/sagnik1511/African-Wildlife-Animal-Recognition-with-CNN/blob/main/assets/heading.jpg)
+---
 
-Link of the notebook done in Kaggle : https://www.kaggle.com/sagnik1511/animal-recognition-custom-cnn
+### Dataset :
+  
+   Link : [https://www.kaggle.com/biancaferreira/african-wildlife](https://www.kaggle.com/biancaferreira/african-wildlife)
+   
+   Data directory :
+   
+                              root/
+                              ├─ buffalo/
+                                 ├─ 001.jpg
+                                 ├─ 001.txt
+                              elephant/
+                                 ├─ 001.jpg
+                                 ├─ 001.txt
+                              rhino/
+                                 ├─ 001.jpg
+                                 ├─ 001.txt
+                              zebra/
+                                 ├─ 001.jpg
+                                 ├─ 001.txt
 
-### Approach : 
 
-          1. Gathering image data 
-          2. Preparing tabular data
-          3. Model Generation 
-          4. Model Fitting and Evaluation
-          5. Conclusion
-          
-          
 ### Model Evaluation :
 
-* Evaluation Metrics :  
+![](https://github.com/sagnik1511/African-Wildlife-Animal-Recognition-with-CNN/blob/main/assets/model%20metrics.png)
 
-         1. Accuracy :
-                 Train : 0.8606
-                 Test  : 0.5855
-                 
-         2. Sparse Categorical Cross Entropy :
-                 Train : 0.3980
-                 Test  : 1.2504
-         (Reached on 5th epoch)
+### Prediction :
 
-# Do ***STAR*** if find useful :)
+**Train accuracy is near : 99.2%**
+
+**Validation accuracy is near : 86%**
+
+#### Predict function :
+
+                                     def predict(path):
+                                          img = cv2.imread( path )
+                                          img = cv2.cvtColor( img , cv2.COLOR_BGR2RGB)
+                                          img = cv2.resize( img , (256,256) )
+                                          img = img.reshape(1 , 256 , 256 , 3)
+                                          pred = np.argmax( clf.predict(img) )
+                                          plt.imshow(img.reshape( 256 , 256 ,3))
+                                          plt.title(f'Prediction : {classes[pred]}')
+                                          
+                                          
+ #### Results :
+ 
+ ![](https://github.com/sagnik1511/African-Wildlife-Animal-Recognition-with-CNN/blob/main/assets/pred1.png)
+ ![](https://github.com/sagnik1511/African-Wildlife-Animal-Recognition-with-CNN/blob/main/assets/pred2.png)
+ 
+ 
+ 
+ # Do Star the repository :)
+ # Thank Yoy for visiting :)
